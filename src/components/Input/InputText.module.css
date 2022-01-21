@@ -1,0 +1,34 @@
+
+
+.toggleEyeOff{
+  cursor: pointer;
+}
+.toggleEyeOff::after{
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-repeat: no-repeat;
+  right: 15px;
+  top: 32px;
+  background-image: url("../../resource/password-on.svg");
+}
+.toggleEyeOn{
+cursor: pointer;
+}
+
+.toggleEyeOn::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-repeat: no-repeat;
+    right: 15px;
+    top: 32px;
+    background-image: url("../../resource/password-off.svg");
+}
+
+.error{
+  color: #ff0000;
+  margin: 5px 0;
+}
